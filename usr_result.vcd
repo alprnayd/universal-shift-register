@@ -1,0 +1,103 @@
+$date
+	Mon May 04 14:58:50 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module usr_tb $end
+$var wire 4 ! q_out [3:0] $end
+$var reg 1 " clk $end
+$var reg 4 # p_in [3:0] $end
+$var reg 1 $ reset $end
+$var reg 1 % s_in_l $end
+$var reg 1 & s_in_r $end
+$var reg 2 ' sel [1:0] $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 4 ( parallel_in [3:0] $end
+$var wire 1 $ reset $end
+$var wire 2 ) select [1:0] $end
+$var wire 1 % serial_in_left $end
+$var wire 1 & serial_in_right $end
+$var reg 4 * q [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 *
+bx )
+bx (
+bx '
+x&
+x%
+1$
+bx #
+0"
+b0 !
+$end
+#5000
+1"
+#10000
+0"
+#15000
+b1010 !
+b1010 *
+1"
+b1010 #
+b1010 (
+b11 '
+b11 )
+0$
+#20000
+0"
+#25000
+1"
+b0 '
+b0 )
+#30000
+0"
+#35000
+1"
+#40000
+0"
+#45000
+b1101 !
+b1101 *
+1"
+1&
+b1 '
+b1 )
+#50000
+0"
+#55000
+b1110 !
+b1110 *
+1"
+#60000
+0"
+#65000
+b1101 !
+b1101 *
+1"
+1%
+b10 '
+b10 )
+#70000
+0"
+#75000
+b1011 !
+b1011 *
+1"
+#80000
+0"
+#85000
+b111 !
+b111 *
+1"
